@@ -4,9 +4,13 @@ A Sorting Algorithm is used to rearrange a given array or list of elements accor
 Different Sorting Algorithm
 
 Bubble sort
+
 Selection sort
+
 Insertion sort
+
 Quick sort
+
 Merge sort
 
 
@@ -15,27 +19,33 @@ Bubble sort
 Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
 Time complecity - O(n^2)
 
+
 Selection sort
 
 Selection sort is a simple and efficient sorting algorithm that works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the list and moving it to the sorted portion of the list.
 Time complecity - O(n^2)
+
 
 Insertion sort
 
 Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.
 Time complecity - O(n^2)
 
+
 Merge sort
 
 Merge sort is defined as a sorting algorithm that works by dividing an array into smaller subarrays, sorting each subarray, and then merging the sorted subarrays back together to form the final sorted array.
 Time complecity - O(n log n)
+
 
 Quick sort
 
 QuickSort is a sorting algorithm based on the Divide and Conquer algorithm that picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array.
 
 Time complexity
+
 Worst case - O(n^2)
+
 Best case - O(n log n)
 
 
@@ -45,13 +55,16 @@ A stack is a linear data structure that follows the Last In, First Out (LIFO) pr
 supports two main operations.
 
 Push - adds an element to the collection
+
 Pop - removes the most recently added elements
 
 
 Appllication of stack
 
 Browser History
+
 Undo Redo
+
 Call stack in javascript
 
 
@@ -60,10 +73,13 @@ Queue
 The queue is a sequential collection of elements that follows the First In First Out(FIFO) principle. The first element inserted into the queue is the first element to be removed. The queue supports two main operations:
 
 Enqueue - adds an element to the queue
+
 Dequeue - removes an oldest element from the queue
 
 Applications
+
 Printers
+
 Callback queue in javascript runtime
 
 
@@ -72,12 +88,15 @@ Circular Queue
 The size of the queue is fixed and a single block of memory is used as if the first element is connected to the last element. Also referred to as circular buffer or ring buffer and follows the FIFO priciple. A circular queue will reuse the empty block created during deque operation. The circular queue supports two main operations.
 
 Enqueue - add elements to the end
+
 Dequeue - remove elements from the start
 
 Application of circular queue
 
 clock
+
 Streaming data
+
 Traffic lights
 
 
@@ -127,6 +146,9 @@ A hash table’s load factor is determined by how many elements are kept there i
 
 
 Big O of Hash Tables
+
 Access - O(1)
+
 Remove - O(1)
+
 Search - O(n)
