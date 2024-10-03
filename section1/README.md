@@ -1,7 +1,9 @@
 Arrays in Python
+
 An array is a data structure that can hold a collection of values. In Python, arrays are typically implemented using lists, which can contain a mix of different data types (e.g., numbers, strings, booleans, objects). Python lists are dynamically resizable, meaning you don’t have to declare their size before creating them. Lists are zero-indexed, and the insertion order is maintained. Lists are iterable and can be used with a for loop.
 
 Common List Methods
+
 append(value): Adds an item to the end of the list.
 pop(index): Removes and returns an item at the given index (default is the last item).
 insert(index, value): Inserts an item at a specified index.
@@ -13,7 +15,10 @@ map(function): Applies a function to every item in the list (using map()).
 filter(function): Filters items in the list based on a function (using filter()).
 reduce(function): Applies a function cumulatively to the items of the list (using functools.reduce()).
 forEach(function): Executes a function on each item in the list (using a simple for loop).
+
+
 Big O Notation of List Operations
+
 Access: O(1)
 Search: O(n)
 Append: O(1)
